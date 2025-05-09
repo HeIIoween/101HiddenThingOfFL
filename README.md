@@ -26,6 +26,10 @@ assassinate_target = <target> ;; Not checked
 Act_ChangeState = SUCCEED, SILENT ;; Do not show MISSION SUCCESS but show only FIND A JOB
 ...
 ```
+```ini
+[AnySection]
+inherit = <object> ;; if present takes properties of <object>, if not - function SinglePlayer() is called
+```
 # -=[ CRASH offsets and reasons ]=-
 ```ini
 common.dll    9143    BC46    Specified loadout for [MsnSolar] or [KillableSolar] is not defined in loadouts.ini.
