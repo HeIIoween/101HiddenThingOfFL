@@ -22,6 +22,9 @@ assassinate_target = <target> ;; Not checked
 ;; For MP preloads only simple for explosions
 ...
 ```
-
+```ini
+[Trigger]
+Act_ChangeState = SUCCEED, SILENT ;; Do not show MISSION SUCCESS but show only FIND A JOB
+```
 
 
