@@ -24,6 +24,7 @@ assassinate_target = <target> ;; Not checked
 ```ini
 [Trigger]
 Act_ChangeState = SUCCEED, SILENT ;; Do not show MISSION SUCCESS but show only FIND A JOB
+...
 ```
 # -=[ CRASH offsets and reasons ]=-
 ```ini
