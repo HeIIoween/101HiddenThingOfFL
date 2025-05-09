@@ -1,5 +1,5 @@
-# HiddenThingsOfFL
--=[ Hidden Things of Freelancer Game ]=- <br><br>
+# -=[ Hidden Things Of Freelancer Game ]=-
+
 ```ini
 Content.dll 0x0A84A1 74 > EB ~He||oween Do not read locked_gate under [mPlayer] section of .fl file
 ```
