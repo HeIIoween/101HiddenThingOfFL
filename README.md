@@ -18,7 +18,7 @@ assassinate_target = <target> ;; Not checked
 [Archetype]
 ;; It is preload section (like precache in Sourcegames)
 ;; For SP preloads all
-;; For MP preloads only simple for explosions
+;; For MP preloads only simple keys for explosions
 ...
 ```
 ```ini
