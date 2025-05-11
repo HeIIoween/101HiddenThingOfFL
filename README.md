@@ -19,6 +19,9 @@ assassinate_target = <target> ;; Not checked
 ;; It is preload section (like precache in Sourcegames)
 ;; For SP preloads all
 ;; For MP preloads only simple keys for explosions
+;; Additional keys
+voice = <voice of npcs?>
+asteroid = <asteroid> ;; nickname from [Asteroids] zone
 ...
 ```
 ```ini
