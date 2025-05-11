@@ -32,8 +32,9 @@ inherit = <object> ;; if present takes properties of <object>, if not - function
 ```
 ```ini
 [EncounterFormation]
-ship_by_npc_arch = 1, 1, Liberty_Battleship ;; sc_battleships
+ship_by_npc_arch = 1, 1, Liberty_Battleship ;; Cheapest encounter variant
 pilot = battleship_default
+
 [Creation]
 permutation = 0, 3
 ```
