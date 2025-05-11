@@ -40,7 +40,7 @@ permutation = 0, 3
 ```
 # -=[ CRASH offsets and reasons ]=-
 ```ini
-common.dll 9143 BC46 Specified loadout for [MsnSolar] or [KillableSolar] is not defined in loadouts.ini.
+common.dll 9143 BC46 Specified loadout for [MsnSolar] or [KillableSolar] absent in loadouts.ini.
 ```
 
 
