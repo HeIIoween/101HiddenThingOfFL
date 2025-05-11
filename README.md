@@ -30,6 +30,13 @@ Act_ChangeState = SUCCEED, SILENT ;; Do not show MISSION SUCCESS but show only F
 [AnySection]
 inherit = <object> ;; if present takes properties of <object>, if not - function SinglePlayer() is called
 ```
+```ini
+[EncounterFormation]
+ship_by_npc_arch = 1, 1, Liberty_Battleship ;; sc_battleships
+pilot = battleship_default
+[Creation]
+permutation = 0, 3
+```
 # -=[ CRASH offsets and reasons ]=-
 ```ini
 common.dll    9143    BC46    Specified loadout for [MsnSolar] or [KillableSolar] is not defined in loadouts.ini.
