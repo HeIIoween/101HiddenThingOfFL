@@ -20,7 +20,7 @@ assassinate_target = <target> ;; Not checked
 ;; For SP preloads all
 ;; For MP preloads only simple keys for explosions
 ;; Additional keys
-voice = <voice of npcs?>
+voice = <voice> ;; nickname from voices_*.ini (ex. voices_space_female.ini)
 asteroid = <asteroid> ;; nickname from asteroidarch.ini
 ...
 ```
