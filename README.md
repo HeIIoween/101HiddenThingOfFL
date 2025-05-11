@@ -28,7 +28,7 @@ Act_ChangeState = SUCCEED, SILENT ;; Do not show MISSION SUCCESS but show only F
 ```
 ```ini
 [AnySection]
-inherit = <object> ;; if present takes properties of <object>, if not - function SinglePlayer() is called
+inherit = <object> ;; takes properties of <object>, if key is absent - SinglePlayer() is called
 ```
 ```ini
 [EncounterFormation]
