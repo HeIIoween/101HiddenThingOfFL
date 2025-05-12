@@ -35,7 +35,7 @@ inherit = <object> ;; takes properties of <object>, if key is absent - SinglePla
 ```
 ```ini
 [EncounterFormation]
-ship_by_npc_arch = 1, 1, Liberty_Battleship ;; Cheapest encounter variant
+ship_by_npc_arch = 1, 1, Liberty_Battleship ;; Cheapest encounter variant (don't do in production)
 pilot = battleship_default
 
 [Creation]
