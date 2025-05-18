@@ -17,11 +17,12 @@ assassinate_target = <target> ;; Not checked
 ```ini
 [Archetype]
 ;; It is preload section (like precache in Sourcegames)
-;; For SP preloads all
-;; For MP preloads only simple keys for explosions
+;; For server-side preloads only simple keys for explosions
+simple = <simple> ;; nickname key value from [Simple] section of shiparch.ini
+;; For client-side preloads all
 ;; Additional keys
-voice = <voice> ;; nickname from voices_*.ini (ex. voices_space_female.ini)
-asteroid = <asteroid> ;; nickname from asteroidarch.ini
+voice = <voice> ;; nickname key value from voices_*.ini (ex. voices_space_female.ini)
+asteroid = <asteroid> ;; nickname key value from asteroidarch.ini
 ...
 ```
 ```ini
