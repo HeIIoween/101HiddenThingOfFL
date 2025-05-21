@@ -47,7 +47,6 @@ permutation = 0, 3
 ;; In constants.ini
 damage = <damage>
 max_impact_speed = <speed>
-...
 ```
 # -=[ CRASH offsets and reasons ]=-
 ```ini
