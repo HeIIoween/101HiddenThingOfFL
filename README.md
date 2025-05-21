@@ -16,7 +16,7 @@ assassinate_target = <target> ;; Not checked
 ```
 ```ini
 [Archetype]
-;; It is preload section (like precache in Sourcegames)
+;; It is preload section of sys.ini(ex. li01.ini) like precache in Sourcegames
 ;; For server-side preloads only simple keys for explosions
 simple = <simple> ;; nickname key value from [Simple] section of shiparch.ini
 ;; For client-side preloads all
@@ -41,6 +41,13 @@ pilot = battleship_default
 
 [Creation]
 permutation = 0, 3
+```
+```ini
+[CollisionConsts]
+;; In constants.ini
+damage = <damage>
+max_impact_speed = <speed>
+...
 ```
 # -=[ CRASH offsets and reasons ]=-
 ```ini
