@@ -1,5 +1,7 @@
 # -=[ Hidden Things Of Freelancer Game ]=-
-
+```ini
+server.dll	06CD85	508B->EB40 = disable anticheat measures ~adoxa
+```
 ```ini
 Content.dll 0x0A84A1 74 > EB He||oween Do not read locked_gate under [mPlayer] section of .fl file
 ```
