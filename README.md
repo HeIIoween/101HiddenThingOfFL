@@ -1,13 +1,13 @@
 # -=[ Hidden Things Of Freelancer Game ]=-
 ```ini
-server.dll	06CD85	508B->EB40 = disable anticheat measures ~adoxa
+server.dll 06CD85 508B->EB40 = disable anticheat measures ~adoxa
 ```
 ```ini
-Content.dll 0x0A84A1 74 > EB He||oween Do not read locked_gate under [mPlayer] section of .fl file
+Content.dll 0x0A84A1 74->EB = Do not read locked_gate under [mPlayer] section of .fl file ~He||oween
 ```
 ```ini
-Freelancer.exe 0x13C0AA 83 F8 10 > 83 F8 FF He||oween Break Limit of Comm Inbox (Act_EtherComm) pt.1
-Freelancer.exe 0x13C183 83 F8 10 > 83 F8 FF He||oween Break Limit of Comm Inbox (Act_EtherComm) pt.2
+Freelancer.exe 0x13C0AA 83F810 -> 83F8FF Break Limit of Comm Inbox (Act_EtherComm) pt.1 ~He||oween
+Freelancer.exe 0x13C183 83F810 -> 83F8FF Break Limit of Comm Inbox (Act_EtherComm) pt.2 ~He||oween
 ```
 
 # -=[ Ini Keys ]=-
