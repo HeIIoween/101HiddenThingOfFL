@@ -6,8 +6,8 @@ server.dll 06CD85 508B->EB40 = disable anticheat measures ~adoxa
 Content.dll 0x0A84A1 74->EB = Do not read locked_gate under [mPlayer] section of .fl file ~He||oween
 ```
 ```ini
-Freelancer.exe 0x13C0AA 83F810 -> 83F8FF Break Limit of Comm Inbox (Act_EtherComm) pt.1 ~He||oween
-Freelancer.exe 0x13C183 83F810 -> 83F8FF Break Limit of Comm Inbox (Act_EtherComm) pt.2 ~He||oween
+Freelancer.exe 0x13C0AA 83F810->83F8FF = Break Limit of Comm Inbox (Act_EtherComm) pt.1 ~He||oween
+Freelancer.exe 0x13C183 83F810->83F8FF = Break Limit of Comm Inbox (Act_EtherComm) pt.2 ~He||oween
 ```
 
 # -=[ Ini Keys ]=-
